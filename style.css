@@ -1,0 +1,1179 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.container {
+    width: 100%;
+    height: auto;
+
+}
+
+.container nav {
+    height: 40px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.container nav .text {
+    display: flex;
+    width: 50%;
+    position: relative;
+    right: 60px;
+}
+
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    list-style: none;
+}
+
+.logo {
+    width: 10%;
+}
+
+.logo img {
+    width: 100%;
+}
+
+
+
+.container nav .icon {
+    width: 20%;
+}
+
+.hero-section {
+    height: 500px;
+    width: 100%;
+    background-image: url(139624-smartphone-darkness-light-android-x750.jpg);
+    background-size: cover;
+    color: white;
+}
+
+.hero-section h1 {
+    width: 20%;
+    height: 300px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-section ul {
+    width: 40%;
+    height: 200px;
+    display: flex;
+    line-height: 30px;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.hero-section ul li {
+    padding-left: 30px;
+}
+
+.box-1 {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.text {
+    width: 50%;
+
+}
+
+.ab {
+    height: auto;
+    width: 50%;
+   
+    /* top: 30px; */
+
+}
+.ab img{ width: 100%; padding-top: 40px; border-radius: 10px; height: 500px;}
+
+.box-1 .text h1 {
+    position: relative;
+    top: 30px;
+    left: 30px;
+}
+
+.box-1 .text footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    padding-left: 20px;
+    width: 80%;
+    height: 340px;
+}
+
+.box-1 .text .bot {
+    height: 20px;
+    width: 60%;
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    top: 20px;
+
+
+}
+
+.box-3 {
+    height: auto;
+    width: 100%;
+}
+
+.box-3 h3 {
+    padding: 10px;
+    padding-left: 30px;
+}
+
+.box-3 .boxes {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    height: 420px;
+}
+
+.boxes .OnePlus-11R-5G {
+    width: 20%;
+
+}
+
+.boxes .OnePlus-11R-5G img {
+    width: 100%;
+    padding-top: 20px;
+    padding-left: 30px;
+}
+
+.boxes .OnePlus-11R-5G h2 {
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+.boxes .OnePlus-11R-5G p {
+    padding: 0px 0px 30px 0px;
+}
+
+.boxes .OnePlus-11R-5G button {
+    width: 70%;
+    background-color: rgb(24, 5, 1);
+    height: 30px;
+    margin-left: 20px;
+    color: white;
+}
+
+.boxes .OnePlus-Nord-CE-2 {
+    width: 20%;
+
+}
+
+.boxes .OnePlus-Nord-CE-2 h2 {
+    padding-bottom: 20px;
+}
+
+.boxes .OnePlus-Nord-CE-2 p {
+    padding: 0px 0px 24px 0px;
+}
+
+.boxes .OnePlus-Nord-CE-2 button {
+    width: 70%;
+    background-color: rgb(24, 5, 1);
+    height: 30px;
+    margin-left: 20px;
+    color: white;
+}
+
+.boxes .OnePlus-Nord-CE-2 img {
+    width: 100%;
+}
+
+.boxes .OnePlus-TV-Y-Series {
+    width: 20%;
+
+}
+
+.boxes .OnePlus-TV-Y-Series h2 {
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+.boxes .OnePlus-TV-Y-Series p {
+    padding: 0px 0px 10px 0px;
+}
+
+.boxes .OnePlus-TV-Y-Series button {
+    width: 70%;
+    background-color: rgb(24, 5, 1);
+    height: 30px;
+    margin-left: 20px;
+    color: white;
+}
+
+.boxes .OnePlus-TV-Y-Series img {
+    width: 100%;
+}
+
+.boxes .OnePlus-Buds-Pro-2 {
+    width: 20%;
+}
+
+.boxes .OnePlus-Buds-Pro-2 h2 {
+    padding-bottom: 10px;
+}
+
+.boxes .OnePlus-Buds-Pro-2 p {
+    padding: 0px 0px 55px 0px;
+}
+
+.boxes .OnePlus-Buds-Pro-2 button {
+    width: 70%;
+    background-color: rgb(24, 5, 1);
+    height: 30px;
+    margin-left: 20px;
+    color: white;
+}
+
+.boxes .OnePlus-Buds-Pro-2 img {
+    width: 100%;
+}
+
+.box-4 {
+    width: 100%;
+    height: 380px;
+    display: flex;
+    background-color: #000000;
+    color: white;
+}
+
+.box-4-text {
+    width: 50%;
+
+}
+
+.box-4-text {
+    padding-left: 20px;
+    padding-top: 30px;
+}
+
+.box-4-text h1 {
+    padding-left: 20px;
+    padding-top: 10px;
+}
+
+.box-4-image {
+    width: 50%;
+}
+
+.box-4-image img {
+    width: 100%;
+    padding: 30px;
+}
+
+.box-2 {
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.section-1 {
+    width: 45%;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #F8F8F8;
+
+
+}
+
+.section-1-text {
+    width: 60%;
+}
+
+.section-1-text h1 {
+    padding-bottom: 20px;
+}
+
+.section-1-text p {
+    padding-bottom: 20px;
+}
+
+.section-1-text h2 {
+    padding-bottom: 40px;
+}
+
+.section-1-image {
+    width: 50%;
+}
+
+.section-2 {
+    width: 45%;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #F8F8F8;
+}
+
+.section-2-text {
+    width: 60%;
+    height: auto;
+}
+
+.section-2-text h4 {
+    padding-bottom: 20px;
+}
+
+.section-2-text h1 {
+    letter-spacing: 1px;
+}
+
+.section-2-text p {
+    padding-bottom: 30px;
+    padding-top: 10px;
+
+}
+
+.section-2-text h2 {
+    padding-bottom: 30px;
+
+}
+
+.box-5 {
+    background-color: black;
+    height: 350px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.box-5-div1 {
+    height: 300px;
+    width: 40%;
+    background-color: #222222;
+    display: flex;
+    justify-content: center;
+    padding-left: 10px;
+    color: white;
+}
+
+.box-5-text {
+    width: 50%;
+}
+
+.box-5-text h1 {
+    padding-bottom: 40px;
+    padding-top: 10px;
+}
+
+.box-5-img {
+    width: 50%;
+}
+
+.box-5-text h4 {
+    padding-top: 20px;
+}
+
+.box-5-img img {
+    width: 100%;
+    height: 300px;
+}
+
+
+
+
+
+.box-5-div2 {
+    height: 300px;
+    width: 40%;
+    background-color: #222222;
+    display: flex;
+    color: white;
+    padding-left: 10px;
+}
+
+.box-5-div2-text {
+    width: 50%;
+}
+
+.box-5-div2-img {
+    width: 50%;
+}
+
+.box-5-div2-img img {
+    width: 100%;
+    height: 300px;
+}
+
+.box-5-div2-text h2 {
+    padding-bottom: 20px;
+    padding-top: 10px;
+}
+
+.box-5-div2-text h4 {
+    padding-top: 10px;
+}
+
+.box-6 {
+    width: 100%;
+    height: 500px;
+    background-color: rgb(12, 12, 12);
+}
+
+.join-the-club {
+    padding-left: 30px;
+    padding-right: 20px;
+    width: 100%;
+    color: white;
+    font-size: 40px;
+}
+
+.box-6-div {
+    display: flex;
+    width: 100%;
+    height: 400px;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-6-img {
+    width: 60%;
+}
+
+.box-6-text {
+    width: 30%;
+    height: 400px;
+    color: white;
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+}
+
+.box-6-img img {
+    width: 90%;
+}
+
+.box-6-text h3 {
+    padding-bottom: 200px;
+}
+
+.box-6-text p {
+    padding-bottom: 30px;
+}
+
+.box-7 {
+    width: 100%;
+    height: 450px;
+}
+
+.Currently {
+    display: flex;
+    justify-content: space-between;
+    height: 30px;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.box-7-div {
+    padding-top: 10px;
+    display: flex;
+    width: 100%;
+    height: 300px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.box-7-text {
+    width: 30%;
+    height: 300px;
+}
+
+.box-7-text h3 {
+    padding-bottom: 200px;
+    font-size: 30px;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.box-7-text p {
+    padding-bottom: 20px;
+}
+
+.box-7-img {
+    width: 60%;
+    background-color: whitesmoke;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+}
+
+.box-7-img img {
+    width: 100%;
+    height: 400px;
+}
+
+.box-8 {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.image-1 {
+
+    width: 30%;
+    height: 540px;
+
+}
+
+.image-1 img {
+    width: 100%;
+}
+
+.image-1 h1 {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.image-1 p {
+    padding-bottom: 20px;
+}
+
+.image-2 {
+
+    width: 30%;
+    height: 540px;
+
+}
+
+.image-2 img {
+    width: 100%;
+    height: 260px;
+}
+
+.image-2 h1 {
+    padding-top: 30px;
+    padding-bottom: 70px;
+}
+
+.image-2 p {
+    padding-bottom: 20px;
+}
+
+.image-3 {
+
+    width: 30%;
+    height: 540px;
+
+}
+
+.image-3 img {
+    width: 100%;
+}
+
+.image-3 h1 {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.image-3 p {
+    padding-bottom: 20px;
+}
+
+.box-9 {
+    width: 100%;
+    height: 450px;
+    background-color: rgb(253, 252, 252);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.box-9-div1 {
+    display: flex;
+    width: 45%;
+    background-color: #F8F8F8;
+    height: 400px;
+}
+
+.box-9-text {
+    width: 50%;
+    height: 400px;
+}
+
+.box-9-img {
+    idth: 50%;
+}
+
+.box-9-img img {
+    width: 100%;
+    height: 400px;
+}
+
+.box-9-div2 {
+    display: flex;
+    width: 45%;
+    background-color: #F8F8F8;
+    height: 400px;
+
+}
+
+.box-9-div2-text {
+    background-color: #F8F8F8;
+
+    width: 50%;
+    height: 400px;
+}
+
+.box-9-div2-img {
+    width: 50%;
+}
+
+.box-9-div2-img img {
+    width: 100%;
+    height: 400px;
+}
+
+.box-9-text h3 {
+    padding-bottom: 20px;
+    padding-top: 10px;
+}
+
+.box-9-text h1 {
+    padding-bottom: 160px;
+}
+
+.box-9-text p {
+    padding-bottom: 20px;
+}
+
+.box-9-div2-text h3 {
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.box-9-div2-text h2 {
+    padding-bottom: 160px;
+}
+
+.box-9-div2-text p {
+    padding-bottom: 20px;
+}
+
+.box-10 {
+    display: flex;
+    height: 100px;
+    width: 100%;
+
+
+}
+
+.box-10 ul {
+    border: 1px solid grey;
+    height: 80%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 25%;
+    list-style: none;
+}
+
+.box-11 {
+    background-color: #363434;
+    height: 350px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.box-11-img1 {
+    width: 45%;
+    height: 300px;
+    background-color: yellow;
+    background: url(images-osm.jpg);
+    background-size: cover;
+    color: white;
+    padding-left: 20px;
+    border-radius: 10px;
+}
+
+.box-11-img1 h1 {
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.box-11-img1 button {
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    height: 30px;
+    width: 200px;
+    border-radius: 10px;
+}
+
+.box-11-img1 p {
+    padding-bottom: 150px;
+}
+
+
+.box-11-img2 {
+    width: 45%;
+    height: 300px;
+    background-color: aqua;
+    background: url(images-osm.jpg);
+    background-size: cover;
+    color: white;
+    padding-left: 20px;
+}
+
+
+.box-11-img2 h1 {
+    padding-top: 10px;
+}
+
+.box-11-img2 h6 {
+    padding-bottom: 10px;
+}
+
+.box-11-img2 p {
+    padding-bottom: 135px;
+}
+
+.box-11-img2 button {
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    height: 30px;
+    width: 200px;
+    border-radius: 10px;
+}
+
+.box-12 {
+    width: 100%;
+
+    height: auto;
+}
+
+.box-12 ul {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+    list-style: none;
+    border-top: 1px solid grey;
+    align-items: center;
+}
+
+.box-12 ul.banking {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.box-12 ul.banking li {
+    width: 8%;
+}
+
+.box-12 ul.contact {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+
+.box-12 ul.icon {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+ul.icon li {
+    width: 100px;
+}
+
+@media (max-width:768px) {
+    * {
+        overflow-x: hidden;
+    }
+
+    .container {
+        width: 100%;
+        height: auto;
+
+
+    }
+
+    .container nav {
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+    }
+
+    .container nav .text {
+        display: none;
+    }
+
+    .nav ul {
+        width: 100%;
+        height: auto;
+    }
+
+    .logo {
+        width: 20%;
+        height: auto;
+    }
+
+    .container nav .icon {
+        width: 100%;
+        height: auto;
+    }
+
+    .hero-section {
+        display: none;
+    }
+
+    .box-1 {
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+    }
+
+    .text {
+        display: none;
+
+    }
+
+    .ab{ margin-left: 30px;
+        width: 100%;
+        height: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .ab img {
+        width: 100%;
+        height: auto;
+
+    }
+
+
+
+
+    footer {
+        height: 10px;
+        text-align: center;
+        position: relative;
+        bottom: 250px;
+    }
+
+
+    .box-1 .text .bot {
+        display: none;
+
+    }
+
+    .box-2 {
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+    }
+
+    .image-1 {
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+    }
+
+    .image-1 .image-text {
+        width: 100%;
+        height: auto;
+    }
+
+    .image-1 .image {
+        width: 100%;
+        height: auto;
+        padding-left: 90px;
+    }
+
+    .box-3 {
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .box-3 .boxes {
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+    }
+
+    .boxes .OnePlus-11R-5G {
+        width: 100%;
+        height: auto;
+        padding-left: 50px;
+    }
+
+    .boxes .OnePlus-11R-5G img {
+        width: 100%;
+        height: auto;
+    }
+
+    .boxes .OnePlus-Nord-CE-2 {
+        width: 100%;
+        height: auto;
+        padding-left: 50px;
+    }
+
+    .boxes .OnePlus-Nord-CE-2 img {
+        width: 100%;
+        height: auto;
+    }
+
+    .boxes .OnePlus-TV-Y-Series {
+        width: 100%;
+        height: auto;
+        padding-left: 50px;
+    }
+
+    .boxes .OnePlus-TV-Y-Series {
+        width: 100%;
+        height: auto;
+    }
+
+    .boxes .OnePlus-Buds-Pro-2 {
+        width: 100%;
+        height: auto;
+        padding-left: 50px;
+    }
+
+    .boxes .OnePlus-Buds-Pro-2 .rupe {
+        margin-bottom: 20px;
+    }
+
+
+
+    .box-4 {
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+    }
+
+    .box-4-text {
+        width: 100%;
+        height: auto;
+        padding-left: 40%;
+    }
+
+    .box-4-image {
+        width: 100%;
+        height: auto;
+    }
+
+    .box-2 {
+        width: 100%;
+        height: auto;
+    }
+
+    .section-1 {
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+    }
+
+    .section-1-text {
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .section-1-image {
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+    }
+
+    .section-2 {
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+    }
+
+    .section-2-text {
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .section-2-image {
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+    }
+
+    .box-5 {
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+    }
+
+    .box-5-div1 {
+        width: 100%;
+        height: auto;
+    }
+
+    .box-5-div2 {
+        width: 100%;
+        height: auto;
+        margin-top: 10px;
+    }
+
+    .box-6 {
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+    }
+
+    .join-the-club {
+        width: 100%;
+        height: auto;
+    }
+
+    .box-6-div {
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+    }
+
+    .box-6-text {
+        display: none;
+    }
+
+    .box-6-img {
+        width: 100%;
+        height: auto;
+    }
+
+    .box-6-img img {
+        width: 100%;
+        height: auto;
+    }
+
+    .box-7 {
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+    }
+
+    .box-7-div {
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+    }
+
+    .box-7-text {
+        display: none;
+    }
+
+    .box-7-img {
+        width: 100%;
+        height: auto;
+    }
+
+    .box-8 {
+        width: 100%;
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .image-1 {
+        width: 100%;
+        height: auto;
+        text-align: center;
+    }
+
+    .image-2 {
+        width: 100%;
+        height: auto;
+        text-align: center;
+    }
+
+    .image-3 {
+        width: 100%;
+        height: auto;
+        text-align: center;
+    }
+
+    .box-9 {
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+    }
+
+    .box-9-div1 {
+        width: 100%;
+        height: auto;
+        text-align: center;
+    }
+
+    .box-9-div2 {
+        width: 100%;
+        height: auto;
+        text-align: center;
+    }
+
+    .box-10 {
+        width: 100%;
+        height: 40px;
+    }
+
+    .box-11 {
+        width: 100%;
+        height: 400px;
+        flex-direction: column;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .box-11-img1 {
+        width: 100%;
+        height: auto;
+        text-align: center;
+    }
+
+    .box-11-img2 {
+        width: 100%;
+        height: auto;
+        text-align: center;
+    }
+
+    .box-12 {
+        width: 100%;
+        height: auto;
+    }
+
+    .box-12 ul.banking {
+        display: none;
+    }
+
+}
